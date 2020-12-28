@@ -1,4 +1,4 @@
-package com.course;
+package com.course.eureka;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
