@@ -1,0 +1,115 @@
+2020-12-28 19:33:26.657 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-28 19:33:26.670 INFO  com.course.gateway.GatewayApplication             :55   [32m        [0;39m Starting GatewayApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 11916 (F:\ijjava\cloudvi\gateway\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-28 19:33:26.671 INFO  com.course.gateway.GatewayApplication             :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-28 19:33:27.643 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=c29b2087-a88f-39bf-af92-773f851bff0a
+2020-12-28 19:33:27.688 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-28 19:33:27.689 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-28 19:33:27.692 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-28 19:33:29.545 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [After]
+2020-12-28 19:33:29.546 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Before]
+2020-12-28 19:33:29.546 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Between]
+2020-12-28 19:33:29.546 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Cookie]
+2020-12-28 19:33:29.547 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Header]
+2020-12-28 19:33:29.547 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Host]
+2020-12-28 19:33:29.547 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Method]
+2020-12-28 19:33:29.547 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Path]
+2020-12-28 19:33:29.548 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Query]
+2020-12-28 19:33:29.548 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [ReadBody]
+2020-12-28 19:33:29.548 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2020-12-28 19:33:29.548 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Weight]
+2020-12-28 19:33:29.548 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-12-28 19:33:29.894 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-28 19:33:31.517 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-28 19:33:31.540 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-28 19:33:31.574 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-28 19:33:31.578 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 19:33:31.977 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-28 19:33:31.977 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-28 19:33:31.977 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-28 19:33:31.978 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-28 19:33:31.978 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-28 19:33:31.978 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-28 19:33:31.978 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-28 19:33:32.246 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-28 19:33:32.249 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-28 19:33:32.251 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-28 19:33:32.257 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609155212256 with initial instances count: 0
+2020-12-28 19:33:32.258 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application GATEWAY with eureka with status UP
+2020-12-28 19:33:32.259 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609155212259, current=UP, previous=STARTING]
+2020-12-28 19:33:32.261 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_GATEWAY/DESKTOP-1UOLNSE:gateway:9000: registering service...
+2020-12-28 19:33:32.408 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_GATEWAY/DESKTOP-1UOLNSE:gateway:9000 - registration status: 204
+2020-12-28 19:33:33.282 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :109  [32m        [0;39m Netty started on port(s): 9000
+2020-12-28 19:33:33.284 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9000
+2020-12-28 19:33:34.871 INFO  com.course.gateway.GatewayApplication             :61   [32m        [0;39m Started GatewayApplication in 9.827 seconds (JVM running for 12.613)
+2020-12-28 19:33:34.874 INFO  com.course.gateway.GatewayApplication             :19   [32m        [0;39m 启动成功！！
+2020-12-28 19:33:34.875 INFO  com.course.gateway.GatewayApplication             :20   [32m        [0;39m Gateway地址: 	http://127.0.0.1:9000
+2020-12-28 19:34:02.252 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-28 19:34:02.254 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-28 19:34:02.255 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-28 19:34:02.255 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-28 19:34:02.255 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-28 19:34:02.256 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2020-12-28 19:34:02.256 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-28 19:34:02.300 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-28 19:38:31.983 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 19:43:31.986 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 19:47:46.108 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-28 19:47:46.116 INFO  com.course.gateway.GatewayApplication             :55   [32m        [0;39m Starting GatewayApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 7184 (F:\ijjava\cloudvi\gateway\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-28 19:47:46.117 INFO  com.course.gateway.GatewayApplication             :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-28 19:47:47.008 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=c29b2087-a88f-39bf-af92-773f851bff0a
+2020-12-28 19:47:47.051 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-28 19:47:47.052 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-28 19:47:47.055 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:350  [32m        [0;39m Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-28 19:47:48.379 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [After]
+2020-12-28 19:47:48.380 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Before]
+2020-12-28 19:47:48.380 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Between]
+2020-12-28 19:47:48.380 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Cookie]
+2020-12-28 19:47:48.380 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Header]
+2020-12-28 19:47:48.380 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Host]
+2020-12-28 19:47:48.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Method]
+2020-12-28 19:47:48.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Path]
+2020-12-28 19:47:48.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Query]
+2020-12-28 19:47:48.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [ReadBody]
+2020-12-28 19:47:48.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2020-12-28 19:47:48.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [Weight]
+2020-12-28 19:47:48.381 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m        [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-12-28 19:47:48.678 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-28 19:47:50.366 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-28 19:47:50.386 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-28 19:47:50.417 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-28 19:47:50.421 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 19:47:50.827 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-28 19:47:50.827 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-28 19:47:50.828 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-28 19:47:50.828 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-28 19:47:50.828 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-28 19:47:50.828 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-28 19:47:50.828 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-28 19:47:50.993 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-28 19:47:50.997 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-28 19:47:50.999 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-28 19:47:51.005 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609156071004 with initial instances count: 2
+2020-12-28 19:47:51.006 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application GATEWAY with eureka with status UP
+2020-12-28 19:47:51.007 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609156071007, current=UP, previous=STARTING]
+2020-12-28 19:47:51.009 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_GATEWAY/DESKTOP-1UOLNSE:gateway:9000: registering service...
+2020-12-28 19:47:51.076 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_GATEWAY/DESKTOP-1UOLNSE:gateway:9000 - registration status: 204
+2020-12-28 19:47:51.958 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :109  [32m        [0;39m Netty started on port(s): 9000
+2020-12-28 19:47:51.960 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9000
+2020-12-28 19:47:53.487 INFO  com.course.gateway.GatewayApplication             :61   [32m        [0;39m Started GatewayApplication in 9.087 seconds (JVM running for 10.826)
+2020-12-28 19:47:53.491 INFO  com.course.gateway.GatewayApplication             :19   [32m        [0;39m 启动成功！！
+2020-12-28 19:47:53.491 INFO  com.course.gateway.GatewayApplication             :20   [32m        [0;39m Gateway地址: 	http://127.0.0.1:9000
+2020-12-28 19:52:50.833 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 19:57:50.834 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 20:02:50.835 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 20:07:50.836 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 20:12:50.839 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 20:17:50.840 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 20:22:50.842 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 20:27:50.845 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 20:32:50.846 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 20:37:50.849 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 20:42:50.853 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 20:47:50.855 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 20:52:50.857 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 20:57:50.860 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-28 21:02:50.861 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration

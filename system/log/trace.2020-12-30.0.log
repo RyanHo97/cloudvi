@@ -1,0 +1,851 @@
+2020-12-30 22:10:42.237 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-30 22:10:42.262 INFO  com.course.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 11056 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 22:10:42.262 INFO  com.course.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 22:10:42.323 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-30 22:10:42.332 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-30 22:10:44.268 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=3bc58b73-59d2-3293-8d1b-2cb36aba48e6
+2020-12-30 22:10:45.112 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9002 (http)
+2020-12-30 22:10:45.121 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9002"]
+2020-12-30 22:10:45.122 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 22:10:45.122 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 22:10:45.249 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 22:10:45.250 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 2915 ms
+2020-12-30 22:10:46.296 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:10:46.588 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 22:10:47.426 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 22:10:48.345 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 22:10:48.368 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 22:10:48.401 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 22:10:48.457 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:10:48.897 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 22:10:48.898 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 22:10:48.898 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 22:10:48.898 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 22:10:48.898 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 22:10:48.899 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 22:10:48.899 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 22:10:49.449 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 22:10:49.451 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 22:10:49.454 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 22:10:49.461 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609337449459 with initial instances count: 0
+2020-12-30 22:10:49.464 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 22:10:49.465 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609337449465, current=UP, previous=STARTING]
+2020-12-30 22:10:49.467 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9002: registering service...
+2020-12-30 22:10:49.470 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9002"]
+2020-12-30 22:10:49.503 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9002 (http) with context path '/system'
+2020-12-30 22:10:49.505 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9002
+2020-12-30 22:10:49.697 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9002 - registration status: 204
+2020-12-30 22:10:50.325 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 9.788 seconds (JVM running for 11.978)
+2020-12-30 22:10:50.330 INFO  com.course.SystemApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-30 22:10:50.330 INFO  com.course.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9002
+2020-12-30 22:11:17.114 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2020-12-30 22:11:17.115 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609337477115, current=DOWN, previous=UP]
+2020-12-30 22:11:17.116 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9002: registering service...
+2020-12-30 22:11:17.125 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9002 - registration status: 204
+2020-12-30 22:11:17.717 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:11:17.719 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2020-12-30 22:11:19.456 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 22:11:19.457 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 22:11:19.457 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 22:11:19.457 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 22:11:19.457 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 22:11:19.458 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2020-12-30 22:11:19.458 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 22:11:19.483 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 22:11:20.721 WARN  com.netflix.discovery.TimedSupervisorTask         :90   [32m        [0;39m task supervisor shutting down, can't accept the task
+2020-12-30 22:11:20.724 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2020-12-30 22:11:20.730 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9002 - deregister  status: 200
+2020-12-30 22:11:20.736 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2020-12-30 22:11:21.752 INFO  com.course.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 11056 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 22:11:21.752 INFO  com.course.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 22:11:22.025 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=3bc58b73-59d2-3293-8d1b-2cb36aba48e6
+2020-12-30 22:11:22.139 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 900 (http)
+2020-12-30 22:11:22.139 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-900"]
+2020-12-30 22:11:22.140 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 22:11:22.140 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 22:11:22.168 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 22:11:22.169 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 413 ms
+2020-12-30 22:11:22.290 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:11:22.358 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 22:11:23.987 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 22:11:25.071 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 22:11:25.085 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 22:11:25.090 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 22:11:25.090 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:11:25.126 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 22:11:25.126 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 22:11:25.126 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 22:11:25.126 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 22:11:25.127 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 22:11:25.127 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 22:11:25.127 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 22:11:25.157 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 22:11:25.159 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 22:11:25.160 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 22:11:25.163 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609337485163 with initial instances count: 1
+2020-12-30 22:11:25.165 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 22:11:25.165 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609337485165, current=UP, previous=STARTING]
+2020-12-30 22:11:25.166 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:900: registering service...
+2020-12-30 22:11:25.167 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-900"]
+2020-12-30 22:11:25.172 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 900 (http) with context path '/system'
+2020-12-30 22:11:25.174 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 900
+2020-12-30 22:11:25.190 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:900 - registration status: 204
+2020-12-30 22:11:26.296 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 5.415 seconds (JVM running for 47.949)
+2020-12-30 22:11:26.302 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2020-12-30 22:11:26.301 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2020-12-30 22:11:26.302 INFO  com.course.SystemApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-30 22:11:26.303 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609337486303, current=DOWN, previous=UP]
+2020-12-30 22:11:26.303 INFO  com.course.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:900
+2020-12-30 22:11:26.305 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:900: registering service...
+2020-12-30 22:11:26.314 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:900 - registration status: 204
+2020-12-30 22:11:27.095 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:11:27.097 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2020-12-30 22:11:30.100 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2020-12-30 22:11:30.105 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:900 - deregister  status: 200
+2020-12-30 22:11:30.109 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2020-12-30 22:11:31.148 INFO  com.course.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 11056 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 22:11:31.149 INFO  com.course.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 22:11:31.383 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=3bc58b73-59d2-3293-8d1b-2cb36aba48e6
+2020-12-30 22:11:31.447 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 22:11:31.447 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:11:31.447 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 22:11:31.447 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 22:11:31.471 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 22:11:31.471 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 320 ms
+2020-12-30 22:11:31.554 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:11:31.619 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 22:11:32.471 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 22:11:33.273 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 22:11:33.281 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 22:11:33.283 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 22:11:33.283 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:11:33.285 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 22:11:33.285 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 22:11:33.285 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 22:11:33.285 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 22:11:33.286 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 22:11:33.286 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 22:11:33.286 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 22:11:33.305 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 22:11:33.305 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 22:11:33.306 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 22:11:33.307 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609337493307 with initial instances count: 1
+2020-12-30 22:11:33.308 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 22:11:33.309 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609337493309, current=UP, previous=STARTING]
+2020-12-30 22:11:33.309 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:11:33.310 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:11:33.314 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2020-12-30 22:11:33.315 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2020-12-30 22:11:33.328 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:11:34.080 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 3.775 seconds (JVM running for 55.734)
+2020-12-30 22:11:34.083 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2020-12-30 22:11:34.084 INFO  com.course.SystemApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-30 22:11:34.084 INFO  com.course.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2020-12-30 22:12:22.613 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-30 22:12:22.627 INFO  com.course.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 15604 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 22:12:22.627 INFO  com.course.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 22:12:22.687 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-30 22:12:22.688 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-30 22:12:23.720 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=3bc58b73-59d2-3293-8d1b-2cb36aba48e6
+2020-12-30 22:12:24.257 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 22:12:24.266 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:12:24.267 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 22:12:24.267 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 22:12:24.397 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 22:12:24.398 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 1709 ms
+2020-12-30 22:12:24.919 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:12:25.132 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 22:12:25.946 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 22:12:26.807 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 22:12:26.830 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 22:12:26.861 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 22:12:26.865 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:12:27.293 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 22:12:27.294 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 22:12:27.294 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 22:12:27.294 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 22:12:27.294 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 22:12:27.295 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 22:12:27.295 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 22:12:27.462 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 22:12:27.465 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 22:12:27.467 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 22:12:27.473 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609337547472 with initial instances count: 1
+2020-12-30 22:12:27.475 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 22:12:27.475 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609337547475, current=UP, previous=STARTING]
+2020-12-30 22:12:27.479 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:12:27.485 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:12:27.518 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2020-12-30 22:12:27.519 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2020-12-30 22:12:27.547 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:12:28.350 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 7.508 seconds (JVM running for 9.545)
+2020-12-30 22:12:28.354 INFO  com.course.SystemApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-30 22:12:28.354 INFO  com.course.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2020-12-30 22:17:27.297 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:22:27.300 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:27:27.303 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:32:27.305 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:37:27.307 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:39:28.399 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2020-12-30 22:39:28.400 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609339168400, current=DOWN, previous=UP]
+2020-12-30 22:39:28.400 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:39:28.416 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:39:29.141 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:39:29.142 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2020-12-30 22:39:32.154 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2020-12-30 22:39:32.163 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - deregister  status: 200
+2020-12-30 22:39:32.171 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2020-12-30 22:39:34.117 INFO  com.course.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 15604 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 22:39:34.117 INFO  com.course.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 22:39:34.567 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=3bc58b73-59d2-3293-8d1b-2cb36aba48e6
+2020-12-30 22:39:34.675 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 22:39:34.676 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:39:34.676 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 22:39:34.676 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 22:39:34.700 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 22:39:34.700 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 579 ms
+2020-12-30 22:39:34.793 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:39:34.855 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 22:39:35.627 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 22:39:36.451 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 22:39:36.462 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 22:39:36.464 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 22:39:36.464 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:39:36.472 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 22:39:36.472 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 22:39:36.472 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 22:39:36.472 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 22:39:36.472 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 22:39:36.472 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 22:39:36.473 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 22:39:36.492 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 22:39:36.493 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 22:39:36.494 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 22:39:36.496 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609339176496 with initial instances count: 1
+2020-12-30 22:39:36.498 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 22:39:36.499 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609339176499, current=UP, previous=STARTING]
+2020-12-30 22:39:36.500 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:39:36.501 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:39:36.505 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2020-12-30 22:39:36.507 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2020-12-30 22:39:36.523 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:39:37.389 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 5.037 seconds (JVM running for 1638.583)
+2020-12-30 22:39:37.390 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2020-12-30 22:39:37.390 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609339177390, current=DOWN, previous=UP]
+2020-12-30 22:39:37.391 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:39:37.393 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2020-12-30 22:39:37.393 INFO  com.course.SystemApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-30 22:39:37.394 INFO  com.course.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2020-12-30 22:39:37.399 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:39:37.817 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:39:37.818 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2020-12-30 22:39:40.820 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2020-12-30 22:39:40.825 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - deregister  status: 200
+2020-12-30 22:39:40.831 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2020-12-30 22:39:42.760 INFO  com.course.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 15604 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 22:39:42.760 INFO  com.course.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 22:39:43.087 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=3bc58b73-59d2-3293-8d1b-2cb36aba48e6
+2020-12-30 22:39:43.155 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 22:39:43.156 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:39:43.156 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 22:39:43.157 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 22:39:43.188 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 22:39:43.188 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 424 ms
+2020-12-30 22:39:43.319 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:39:43.386 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 22:39:45.032 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 22:39:46.093 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 22:39:46.101 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 22:39:46.103 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 22:39:46.103 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:39:46.105 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 22:39:46.105 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 22:39:46.105 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 22:39:46.105 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 22:39:46.105 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 22:39:46.106 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 22:39:46.106 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 22:39:46.122 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 22:39:46.122 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 22:39:46.123 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 22:39:46.124 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609339186124 with initial instances count: 1
+2020-12-30 22:39:46.125 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 22:39:46.126 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609339186126, current=UP, previous=STARTING]
+2020-12-30 22:39:46.127 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:39:46.128 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:39:46.132 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2020-12-30 22:39:46.133 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2020-12-30 22:39:46.142 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:39:47.027 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 5.726 seconds (JVM running for 1648.222)
+2020-12-30 22:39:47.028 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2020-12-30 22:39:47.029 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609339187029, current=DOWN, previous=UP]
+2020-12-30 22:39:47.029 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:39:47.030 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2020-12-30 22:39:47.031 INFO  com.course.SystemApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-30 22:39:47.031 INFO  com.course.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2020-12-30 22:39:47.036 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:39:47.628 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:39:47.632 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2020-12-30 22:39:50.646 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2020-12-30 22:39:50.654 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - deregister  status: 200
+2020-12-30 22:39:50.666 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2020-12-30 22:39:51.634 INFO  com.course.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 15604 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 22:39:51.635 INFO  com.course.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 22:39:51.868 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=3bc58b73-59d2-3293-8d1b-2cb36aba48e6
+2020-12-30 22:39:51.921 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 22:39:51.922 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:39:51.922 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 22:39:51.922 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 22:39:51.945 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 22:39:51.945 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 308 ms
+2020-12-30 22:39:52.020 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:39:52.070 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 22:39:53.268 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 22:39:54.601 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 22:39:54.611 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 22:39:54.613 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 22:39:54.614 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:39:54.615 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 22:39:54.616 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 22:39:54.616 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 22:39:54.616 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 22:39:54.616 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 22:39:54.616 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 22:39:54.616 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 22:39:54.635 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 22:39:54.636 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 22:39:54.637 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 22:39:54.638 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609339194638 with initial instances count: 1
+2020-12-30 22:39:54.639 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 22:39:54.639 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609339194639, current=UP, previous=STARTING]
+2020-12-30 22:39:54.640 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:39:54.641 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:39:54.645 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2020-12-30 22:39:54.645 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2020-12-30 22:39:54.654 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:39:55.542 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 4.682 seconds (JVM running for 1656.736)
+2020-12-30 22:39:55.543 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2020-12-30 22:39:55.543 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609339195543, current=DOWN, previous=UP]
+2020-12-30 22:39:55.543 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:39:55.544 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2020-12-30 22:39:55.544 INFO  com.course.SystemApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-30 22:39:55.545 INFO  com.course.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2020-12-30 22:39:55.548 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:39:55.987 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:39:55.988 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2020-12-30 22:39:58.989 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2020-12-30 22:39:58.992 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - deregister  status: 200
+2020-12-30 22:39:58.994 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2020-12-30 22:40:01.422 INFO  com.course.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 15604 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 22:40:01.422 INFO  com.course.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 22:40:01.850 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=3bc58b73-59d2-3293-8d1b-2cb36aba48e6
+2020-12-30 22:40:01.912 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 22:40:01.913 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:40:01.913 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 22:40:01.914 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 22:40:01.946 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 22:40:01.947 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 520 ms
+2020-12-30 22:40:02.063 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:40:02.133 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 22:40:03.623 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 22:40:05.310 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 22:40:05.324 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 22:40:05.326 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 22:40:05.327 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:40:05.329 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 22:40:05.329 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 22:40:05.329 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 22:40:05.329 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 22:40:05.330 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 22:40:05.330 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 22:40:05.331 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 22:40:05.350 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 22:40:05.352 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 22:40:05.353 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 22:40:05.355 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609339205355 with initial instances count: 0
+2020-12-30 22:40:05.356 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 22:40:05.357 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609339205357, current=UP, previous=STARTING]
+2020-12-30 22:40:05.357 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:40:05.359 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:40:05.363 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2020-12-30 22:40:05.364 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2020-12-30 22:40:05.379 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:40:06.483 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 7.176 seconds (JVM running for 1667.677)
+2020-12-30 22:40:06.484 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2020-12-30 22:40:06.484 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609339206484, current=DOWN, previous=UP]
+2020-12-30 22:40:06.484 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:40:06.486 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2020-12-30 22:40:06.486 INFO  com.course.SystemApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-30 22:40:06.487 INFO  com.course.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2020-12-30 22:40:06.491 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:40:07.006 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:40:07.007 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2020-12-30 22:40:10.011 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2020-12-30 22:40:10.016 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - deregister  status: 200
+2020-12-30 22:40:10.022 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2020-12-30 22:40:10.887 INFO  com.course.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 15604 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 22:40:10.887 INFO  com.course.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 22:40:11.100 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=3bc58b73-59d2-3293-8d1b-2cb36aba48e6
+2020-12-30 22:40:11.189 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 22:40:11.189 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:40:11.190 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 22:40:11.190 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 22:40:11.212 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 22:40:11.213 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 324 ms
+2020-12-30 22:40:11.283 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:40:11.329 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 22:40:12.069 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 22:40:12.807 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 22:40:12.817 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 22:40:12.820 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 22:40:12.821 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:40:12.822 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 22:40:12.822 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 22:40:12.822 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 22:40:12.822 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 22:40:12.822 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 22:40:12.822 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 22:40:12.822 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 22:40:12.834 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 22:40:12.835 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 22:40:12.836 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 22:40:12.836 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609339212836 with initial instances count: 0
+2020-12-30 22:40:12.838 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 22:40:12.838 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609339212838, current=UP, previous=STARTING]
+2020-12-30 22:40:12.839 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:40:12.840 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:40:12.843 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2020-12-30 22:40:12.844 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2020-12-30 22:40:12.852 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:40:13.660 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 3.504 seconds (JVM running for 1674.854)
+2020-12-30 22:40:13.661 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2020-12-30 22:40:13.662 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609339213662, current=DOWN, previous=UP]
+2020-12-30 22:40:13.663 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:40:13.665 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2020-12-30 22:40:13.665 INFO  com.course.SystemApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-30 22:40:13.666 INFO  com.course.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2020-12-30 22:40:13.668 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:40:14.818 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:40:14.819 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2020-12-30 22:40:17.827 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2020-12-30 22:40:17.841 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - deregister  status: 200
+2020-12-30 22:40:17.848 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2020-12-30 22:40:18.817 INFO  com.course.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 15604 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 22:40:18.817 INFO  com.course.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 22:40:19.012 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=3bc58b73-59d2-3293-8d1b-2cb36aba48e6
+2020-12-30 22:40:19.060 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 22:40:19.060 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:40:19.061 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 22:40:19.061 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 22:40:19.082 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 22:40:19.082 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 262 ms
+2020-12-30 22:40:19.149 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 22:40:19.196 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 22:40:19.924 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 22:40:20.682 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 22:40:20.689 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 22:40:20.691 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 22:40:20.691 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 22:40:20.692 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 22:40:20.692 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 22:40:20.693 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 22:40:20.693 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 22:40:20.693 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 22:40:20.693 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 22:40:20.693 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 22:40:20.703 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 22:40:20.704 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 22:40:20.705 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 22:40:20.706 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609339220706 with initial instances count: 0
+2020-12-30 22:40:20.707 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 22:40:20.707 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609339220707, current=UP, previous=STARTING]
+2020-12-30 22:40:20.708 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 22:40:20.709 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2020-12-30 22:40:20.713 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2020-12-30 22:40:20.714 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2020-12-30 22:40:20.722 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 22:40:21.415 INFO  com.course.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 3.326 seconds (JVM running for 1682.61)
+2020-12-30 22:40:21.416 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2020-12-30 22:40:21.417 INFO  com.course.SystemApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-30 22:40:21.417 INFO  com.course.SystemApplication               :22   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2020-12-30 22:40:50.705 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 22:40:50.706 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 22:40:50.706 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 22:40:50.706 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 22:40:50.706 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 22:40:50.706 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2020-12-30 22:40:50.707 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 22:40:50.711 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 22:41:03.038 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 22:41:03.038 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2020-12-30 22:41:03.042 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 3 ms
+2020-12-30 22:41:03.423 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m        [0;39m HikariPool-1 - Starting...
+2020-12-30 22:41:03.425 WARN  com.zaxxer.hikari.util.DriverDataSource           :70   [32m        [0;39m Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-30 22:41:04.957 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m        [0;39m HikariPool-1 - Start completed.
+2020-12-30 22:41:04.995 DEBUG com.course.TestMapper.list          :159  [32m        [0;39m ==>  Preparing: SELECT `name` FROM test
+2020-12-30 22:41:05.026 DEBUG com.course.TestMapper.list          :159  [32m        [0;39m ==> Parameters:
+2020-12-30 22:41:05.092 TRACE com.course.TestMapper.list          :165  [32m        [0;39m <==    Columns: name
+2020-12-30 22:41:05.093 TRACE com.course.TestMapper.list          :165  [32m        [0;39m <==        Row: rrrr
+2020-12-30 22:41:05.101 TRACE com.course.TestMapper.list          :165  [32m        [0;39m <==        Row: tttt
+2020-12-30 22:41:05.101 DEBUG com.course.TestMapper.list          :159  [32m        [0;39m <==      Total: 2
+2020-12-30 22:45:20.694 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 23:21:50.720 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-30 23:21:50.735 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 10820 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 23:21:50.735 INFO  com.course.system.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 23:21:50.794 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-30 23:21:50.795 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-30 23:21:51.891 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=00ac65a1-19e9-3f36-abe5-3b656cd28de7
+2020-12-30 23:21:52.432 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 23:21:52.441 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:21:52.442 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 23:21:52.442 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 23:21:52.571 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 23:21:52.571 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 1774 ms
+2020-12-30 23:21:52.625 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.server.service.TestService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-12-30 23:21:52.628 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2020-12-30 23:21:52.644 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-30 23:21:52.758 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m        [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.course.server.service.TestService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.course.server.service.TestService' in your configuration.
+
+2020-12-30 23:23:13.305 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-30 23:23:13.315 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 10396 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 23:23:13.316 INFO  com.course.system.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 23:23:13.373 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-30 23:23:13.374 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-30 23:23:14.567 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=00ac65a1-19e9-3f36-abe5-3b656cd28de7
+2020-12-30 23:23:15.400 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 23:23:15.418 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:23:15.418 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 23:23:15.419 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 23:23:15.559 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 23:23:15.560 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 2185 ms
+2020-12-30 23:23:15.623 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.server.service.TestService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-12-30 23:23:15.626 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2020-12-30 23:23:15.646 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-30 23:23:15.680 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m        [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.course.server.service.TestService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.course.server.service.TestService' in your configuration.
+
+2020-12-30 23:28:05.985 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-30 23:28:05.999 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 8944 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 23:28:06.000 INFO  com.course.system.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 23:28:06.065 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-30 23:28:06.066 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-30 23:28:07.124 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=00ac65a1-19e9-3f36-abe5-3b656cd28de7
+2020-12-30 23:28:07.687 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 23:28:07.696 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:28:07.697 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 23:28:07.697 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 23:28:07.834 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 23:28:07.834 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 1767 ms
+2020-12-30 23:28:07.894 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.server.service.TestService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-12-30 23:28:07.900 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2020-12-30 23:28:07.918 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-30 23:28:07.945 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m        [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.course.server.service.TestService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.course.server.service.TestService' in your configuration.
+
+2020-12-30 23:38:57.591 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-30 23:38:57.605 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 14772 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 23:38:57.605 INFO  com.course.system.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 23:38:57.665 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-30 23:38:57.665 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-30 23:38:58.808 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=00ac65a1-19e9-3f36-abe5-3b656cd28de7
+2020-12-30 23:38:59.403 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 23:38:59.415 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:38:59.415 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 23:38:59.416 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 23:38:59.565 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 23:38:59.565 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 1898 ms
+2020-12-30 23:38:59.632 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.server.service.TestService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-12-30 23:38:59.636 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2020-12-30 23:38:59.654 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-30 23:38:59.683 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m        [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.course.server.service.TestService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.course.server.service.TestService' in your configuration.
+
+2020-12-30 23:45:27.883 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-30 23:45:27.905 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 2952 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 23:45:27.905 INFO  com.course.system.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 23:45:27.983 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-30 23:45:27.984 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-30 23:45:29.868 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=00ac65a1-19e9-3f36-abe5-3b656cd28de7
+2020-12-30 23:45:30.562 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 23:45:30.572 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:45:30.574 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 23:45:30.575 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 23:45:30.713 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 23:45:30.713 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 2727 ms
+2020-12-30 23:45:30.771 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:596  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.course.server.service.TestService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@javax.annotation.Resource(shareable=true, lookup=, name=, description=, authenticationType=CONTAINER, type=class java.lang.Object, mappedName=)}
+2020-12-30 23:45:30.778 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2020-12-30 23:45:30.795 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-30 23:45:30.820 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m        [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.course.server.service.TestService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.course.server.service.TestService' in your configuration.
+
+2020-12-30 23:55:05.495 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-30 23:55:05.509 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 9968 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 23:55:05.511 INFO  com.course.system.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 23:55:05.588 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-12-30 23:55:05.588 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-12-30 23:55:06.676 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=e4227ecc-25d8-3f09-887a-ba896a06cc78
+2020-12-30 23:55:07.246 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 23:55:07.256 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:55:07.256 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 23:55:07.257 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 23:55:07.438 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 23:55:07.438 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 1848 ms
+2020-12-30 23:55:07.967 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 23:55:08.206 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 23:55:09.038 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 23:55:09.897 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 23:55:09.920 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 23:55:09.951 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 23:55:09.955 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 23:55:10.358 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 23:55:10.358 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 23:55:10.359 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 23:55:10.359 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 23:55:10.359 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 23:55:10.359 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 23:55:10.359 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 23:55:10.704 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 23:55:10.706 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 23:55:10.710 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 23:55:10.717 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609343710715 with initial instances count: 0
+2020-12-30 23:55:10.719 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 23:55:10.720 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609343710720, current=UP, previous=STARTING]
+2020-12-30 23:55:10.723 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 23:55:10.728 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:55:10.760 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2020-12-30 23:55:10.761 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2020-12-30 23:55:10.914 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 23:55:11.632 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 8.088 seconds (JVM running for 10.108)
+2020-12-30 23:55:11.636 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2020-12-30 23:55:11.636 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2020-12-30 23:55:40.709 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 23:55:40.709 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 23:55:40.709 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 23:55:40.710 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 23:55:40.710 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 23:55:40.710 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2020-12-30 23:55:40.711 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 23:55:40.732 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 23:55:53.868 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2020-12-30 23:55:53.868 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609343753868, current=DOWN, previous=UP]
+2020-12-30 23:55:53.880 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 23:55:53.899 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 23:55:54.794 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 23:55:54.795 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2020-12-30 23:55:57.798 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2020-12-30 23:55:57.809 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - deregister  status: 200
+2020-12-30 23:55:57.815 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2020-12-30 23:56:00.895 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 9968 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 23:56:00.895 INFO  com.course.system.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 23:56:01.687 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=e4227ecc-25d8-3f09-887a-ba896a06cc78
+2020-12-30 23:56:01.976 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 23:56:01.977 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:56:01.977 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 23:56:01.978 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 23:56:02.073 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 23:56:02.074 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 1165 ms
+2020-12-30 23:56:02.479 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 23:56:02.617 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 23:56:04.293 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 23:56:06.402 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 23:56:06.413 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 23:56:06.416 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 23:56:06.417 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 23:56:06.424 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 23:56:06.424 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 23:56:06.424 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 23:56:06.424 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 23:56:06.424 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 23:56:06.425 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 23:56:06.425 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 23:56:06.445 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 23:56:06.447 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 23:56:06.448 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 23:56:06.449 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609343766449 with initial instances count: 0
+2020-12-30 23:56:06.451 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 23:56:06.451 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609343766451, current=UP, previous=STARTING]
+2020-12-30 23:56:06.452 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 23:56:06.453 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:56:06.457 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2020-12-30 23:56:06.458 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2020-12-30 23:56:06.475 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 23:56:07.966 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 9.611 seconds (JVM running for 66.442)
+2020-12-30 23:56:07.969 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2020-12-30 23:56:07.969 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609343767969, current=DOWN, previous=UP]
+2020-12-30 23:56:07.971 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 23:56:07.971 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2020-12-30 23:56:07.973 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2020-12-30 23:56:07.974 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2020-12-30 23:56:07.982 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 23:56:08.777 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 23:56:08.778 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2020-12-30 23:56:11.781 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2020-12-30 23:56:11.786 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - deregister  status: 200
+2020-12-30 23:56:11.792 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2020-12-30 23:56:13.522 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 9968 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 23:56:13.523 INFO  com.course.system.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 23:56:14.131 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=e4227ecc-25d8-3f09-887a-ba896a06cc78
+2020-12-30 23:56:14.296 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 23:56:14.296 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:56:14.297 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 23:56:14.297 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 23:56:14.348 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 23:56:14.349 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 822 ms
+2020-12-30 23:56:14.548 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 23:56:14.687 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 23:56:16.118 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 23:56:17.190 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 23:56:17.202 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 23:56:17.206 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 23:56:17.206 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 23:56:17.208 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 23:56:17.208 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 23:56:17.209 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 23:56:17.209 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 23:56:17.210 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 23:56:17.211 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 23:56:17.211 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 23:56:17.245 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 23:56:17.247 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 23:56:17.248 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 23:56:17.250 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609343777250 with initial instances count: 0
+2020-12-30 23:56:17.252 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 23:56:17.252 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609343777252, current=UP, previous=STARTING]
+2020-12-30 23:56:17.253 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 23:56:17.254 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:56:17.259 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2020-12-30 23:56:17.260 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2020-12-30 23:56:17.277 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 23:56:18.669 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 6.686 seconds (JVM running for 77.145)
+2020-12-30 23:56:18.670 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2020-12-30 23:56:18.671 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609343778671, current=DOWN, previous=UP]
+2020-12-30 23:56:18.671 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 23:56:18.677 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2020-12-30 23:56:18.677 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2020-12-30 23:56:18.678 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2020-12-30 23:56:18.679 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 23:56:19.191 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :218  [32m        [0;39m Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 23:56:19.192 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2020-12-30 23:56:22.193 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2020-12-30 23:56:22.198 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - deregister  status: 200
+2020-12-30 23:56:22.204 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2020-12-30 23:56:23.117 INFO  com.course.system.SystemApplication               :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 9968 (F:\ijjava\cloudvi\system\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-30 23:56:23.117 INFO  com.course.system.SystemApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-30 23:56:23.350 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=e4227ecc-25d8-3f09-887a-ba896a06cc78
+2020-12-30 23:56:23.403 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2020-12-30 23:56:23.403 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:56:23.403 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-30 23:56:23.404 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-30 23:56:23.428 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-30 23:56:23.429 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 308 ms
+2020-12-30 23:56:23.507 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 23:56:23.557 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :58   [32m        [0;39m LiveReload server is running on port 35729
+2020-12-30 23:56:24.296 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2020-12-30 23:56:25.037 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-30 23:56:25.044 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-30 23:56:25.046 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-30 23:56:25.047 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2020-12-30 23:56:25.048 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 23:56:25.048 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 23:56:25.048 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 23:56:25.048 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 23:56:25.048 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 23:56:25.049 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2020-12-30 23:56:25.049 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 23:56:25.065 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 23:56:25.066 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2020-12-30 23:56:25.066 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-30 23:56:25.067 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1609343785067 with initial instances count: 0
+2020-12-30 23:56:25.068 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2020-12-30 23:56:25.069 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1609343785069, current=UP, previous=STARTING]
+2020-12-30 23:56:25.069 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001: registering service...
+2020-12-30 23:56:25.071 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2020-12-30 23:56:25.075 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2020-12-30 23:56:25.075 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2020-12-30 23:56:25.086 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/DESKTOP-1UOLNSE:system:9001 - registration status: 204
+2020-12-30 23:56:25.810 INFO  com.course.system.SystemApplication               :61   [32m        [0;39m Started SystemApplication in 3.445 seconds (JVM running for 84.287)
+2020-12-30 23:56:25.812 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2020-12-30 23:56:25.813 INFO  com.course.system.SystemApplication               :23   [32m        [0;39m 启动成功！！
+2020-12-30 23:56:25.813 INFO  com.course.system.SystemApplication               :24   [32m        [0;39m System地址: 	http://127.0.0.1:9001
+2020-12-30 23:56:55.068 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2020-12-30 23:56:55.068 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2020-12-30 23:56:55.068 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2020-12-30 23:56:55.069 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2020-12-30 23:56:55.069 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2020-12-30 23:56:55.069 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2020-12-30 23:56:55.070 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2020-12-30 23:56:55.077 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2020-12-30 23:57:29.282 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 23:57:29.283 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2020-12-30 23:57:29.287 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 4 ms

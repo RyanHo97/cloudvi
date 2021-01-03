@@ -1,0 +1,531 @@
+2020-12-28 13:49:40.628 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-28 13:49:40.634 INFO  EurekaApplication                      :55   [32m        [0;39m Starting EurekaApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 13836 (F:\ijjava\cloudvi\eureka\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-28 13:49:40.635 INFO  EurekaApplication                      :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-28 13:49:41.820 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=438cfb77-08e5-3362-8ccc-eb294fad23e3
+2020-12-28 13:49:42.139 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 8761 (http)
+2020-12-28 13:49:42.148 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-8761"]
+2020-12-28 13:49:42.149 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-28 13:49:42.149 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-28 13:49:42.344 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-28 13:49:42.344 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 1642 ms
+2020-12-28 13:49:42.974 INFO  c.s.j.server.impl.application.WebApplicationImpl  :815  [32m        [0;39m Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2020-12-28 13:49:43.036 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 13:49:43.037 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 13:49:43.148 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 13:49:43.148 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 13:49:43.912 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-28 13:49:45.821 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:87   [32m        [0;39m Eureka HTTP Client uses Jersey
+2020-12-28 13:49:45.889 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-28 13:49:45.910 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-28 13:49:45.938 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-28 13:49:45.939 INFO  com.netflix.discovery.DiscoveryClient             :375  [32m        [0;39m Client configured to neither register nor query for data.
+2020-12-28 13:49:45.946 INFO  com.netflix.discovery.DiscoveryClient             :390  [32m        [0;39m Discovery Client initialized at timestamp 1609134585945 with initial instances count: 0
+2020-12-28 13:49:46.044 INFO  com.netflix.eureka.DefaultEurekaServerContext     :66   [32m        [0;39m Initializing ...
+2020-12-28 13:49:46.046 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :187  [32m        [0;39m Adding new peer nodes [http://localhost:8761/eureka/]
+2020-12-28 13:49:46.748 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 13:49:46.749 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 13:49:46.749 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 13:49:46.750 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 13:49:46.867 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :109  [32m        [0;39m Replica node URL:  http://localhost:8761/eureka/
+2020-12-28 13:49:46.877 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:153  [32m        [0;39m Finished initializing remote region registries. All known remote regions: []
+2020-12-28 13:49:46.879 INFO  com.netflix.eureka.DefaultEurekaServerContext     :73   [32m        [0;39m Initialized
+2020-12-28 13:49:46.889 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m        [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-28 13:49:46.917 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application EUREKA with eureka with status UP
+2020-12-28 13:49:46.920 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-8761"]
+2020-12-28 13:49:46.921 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :97   [32m        [0;39m Setting the eureka configuration..
+2020-12-28 13:49:46.944 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :148  [32m        [0;39m isAws returned false
+2020-12-28 13:49:46.945 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :114  [32m        [0;39m Initialized server context
+2020-12-28 13:49:46.945 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :244  [32m        [0;39m Got 1 instances from neighboring DS node
+2020-12-28 13:49:46.945 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :245  [32m        [0;39m Renew threshold is: 1
+2020-12-28 13:49:46.945 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :256  [32m        [0;39m Changing status to UP
+2020-12-28 13:49:46.958 INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration  :69   [32m        [0;39m Started Eureka Server
+2020-12-28 13:49:46.959 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 8761 (http) with context path ''
+2020-12-28 13:49:46.961 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 8761
+2020-12-28 13:49:47.772 INFO  EurekaApplication                      :61   [32m        [0;39m Started EurekaApplication in 8.688 seconds (JVM running for 11.106)
+2020-12-28 13:49:47.779 INFO  EurekaApplication                      :21   [32m        [0;39m 启动成功！！
+2020-12-28 13:49:47.779 INFO  EurekaApplication                      :22   [32m        [0;39m Eureka地址: 	http://127.0.0.1:8761
+2020-12-28 13:49:55.465 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-28 13:49:55.466 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2020-12-28 13:49:55.471 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 4 ms
+2020-12-28 13:50:46.947 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 13:51:46.948 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:22:39.863 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=false)
+2020-12-28 18:22:40.373 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=true)
+2020-12-28 18:22:43.071 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:25:09.122 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-28 18:25:09.182 INFO  com.course.eureka.EurekaApplication               :55   [32m        [0;39m Starting EurekaApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 14660 (F:\ijjava\cloudvi\eureka\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-28 18:25:09.187 INFO  com.course.eureka.EurekaApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-28 18:25:11.465 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=e4d13611-5d91-3cb8-a99b-11388ff9f9e9
+2020-12-28 18:25:12.488 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 8761 (http)
+2020-12-28 18:25:12.501 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-8761"]
+2020-12-28 18:25:12.502 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-28 18:25:12.502 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-28 18:25:12.846 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-28 18:25:12.846 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 3524 ms
+2020-12-28 18:25:13.737 INFO  c.s.j.server.impl.application.WebApplicationImpl  :815  [32m        [0;39m Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2020-12-28 18:25:13.839 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 18:25:13.840 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 18:25:14.045 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 18:25:14.046 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 18:25:15.134 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-28 18:25:17.657 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:87   [32m        [0;39m Eureka HTTP Client uses Jersey
+2020-12-28 18:25:17.772 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-28 18:25:17.814 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-28 18:25:17.877 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-28 18:25:17.878 INFO  com.netflix.discovery.DiscoveryClient             :375  [32m        [0;39m Client configured to neither register nor query for data.
+2020-12-28 18:25:17.896 INFO  com.netflix.discovery.DiscoveryClient             :390  [32m        [0;39m Discovery Client initialized at timestamp 1609151117894 with initial instances count: 0
+2020-12-28 18:25:17.965 INFO  com.netflix.eureka.DefaultEurekaServerContext     :66   [32m        [0;39m Initializing ...
+2020-12-28 18:25:17.969 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :187  [32m        [0;39m Adding new peer nodes [http://localhost:8761/eureka/]
+2020-12-28 18:25:18.831 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 18:25:18.832 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 18:25:18.832 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 18:25:18.833 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 18:25:19.106 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :109  [32m        [0;39m Replica node URL:  http://localhost:8761/eureka/
+2020-12-28 18:25:19.128 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:153  [32m        [0;39m Finished initializing remote region registries. All known remote regions: []
+2020-12-28 18:25:19.133 INFO  com.netflix.eureka.DefaultEurekaServerContext     :73   [32m        [0;39m Initialized
+2020-12-28 18:25:19.149 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m        [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-28 18:25:19.196 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application EUREKA with eureka with status UP
+2020-12-28 18:25:19.201 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-8761"]
+2020-12-28 18:25:19.201 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :97   [32m        [0;39m Setting the eureka configuration..
+2020-12-28 18:25:19.222 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :148  [32m        [0;39m isAws returned false
+2020-12-28 18:25:19.222 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :114  [32m        [0;39m Initialized server context
+2020-12-28 18:25:19.223 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :244  [32m        [0;39m Got 1 instances from neighboring DS node
+2020-12-28 18:25:19.223 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :245  [32m        [0;39m Renew threshold is: 1
+2020-12-28 18:25:19.223 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :256  [32m        [0;39m Changing status to UP
+2020-12-28 18:25:19.248 INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration  :69   [32m        [0;39m Started Eureka Server
+2020-12-28 18:25:19.255 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 8761 (http) with context path ''
+2020-12-28 18:25:19.256 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 8761
+2020-12-28 18:25:20.125 INFO  com.course.eureka.EurekaApplication               :61   [32m        [0;39m Started EurekaApplication in 13.48 seconds (JVM running for 15.264)
+2020-12-28 18:25:20.138 INFO  com.course.eureka.EurekaApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-28 18:25:20.138 INFO  com.course.eureka.EurekaApplication               :22   [32m        [0;39m Eureka地址: 	http://127.0.0.1:8761
+2020-12-28 18:26:08.812 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-28 18:26:08.852 INFO  com.course.eureka.EurekaApplication               :55   [32m        [0;39m Starting EurekaApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 11628 (F:\ijjava\cloudvi\eureka\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-28 18:26:08.856 INFO  com.course.eureka.EurekaApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-28 18:26:11.262 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=e4d13611-5d91-3cb8-a99b-11388ff9f9e9
+2020-12-28 18:26:12.305 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 8761 (http)
+2020-12-28 18:26:12.319 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-8761"]
+2020-12-28 18:26:12.320 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-28 18:26:12.321 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-28 18:26:12.691 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-28 18:26:12.691 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 3673 ms
+2020-12-28 18:26:13.687 INFO  c.s.j.server.impl.application.WebApplicationImpl  :815  [32m        [0;39m Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2020-12-28 18:26:13.804 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 18:26:13.805 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 18:26:13.983 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 18:26:13.984 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 18:26:15.260 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-28 18:26:18.189 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:87   [32m        [0;39m Eureka HTTP Client uses Jersey
+2020-12-28 18:26:18.309 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-28 18:26:18.338 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-28 18:26:18.403 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-28 18:26:18.404 INFO  com.netflix.discovery.DiscoveryClient             :375  [32m        [0;39m Client configured to neither register nor query for data.
+2020-12-28 18:26:18.422 INFO  com.netflix.discovery.DiscoveryClient             :390  [32m        [0;39m Discovery Client initialized at timestamp 1609151178420 with initial instances count: 0
+2020-12-28 18:26:18.495 INFO  com.netflix.eureka.DefaultEurekaServerContext     :66   [32m        [0;39m Initializing ...
+2020-12-28 18:26:18.498 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :187  [32m        [0;39m Adding new peer nodes [http://localhost:8761/eureka/]
+2020-12-28 18:26:19.328 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 18:26:19.329 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 18:26:19.330 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 18:26:19.330 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 18:26:19.517 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :109  [32m        [0;39m Replica node URL:  http://localhost:8761/eureka/
+2020-12-28 18:26:19.538 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:153  [32m        [0;39m Finished initializing remote region registries. All known remote regions: []
+2020-12-28 18:26:19.539 INFO  com.netflix.eureka.DefaultEurekaServerContext     :73   [32m        [0;39m Initialized
+2020-12-28 18:26:19.558 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m        [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-28 18:26:19.605 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application EUREKA with eureka with status UP
+2020-12-28 18:26:19.609 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :97   [32m        [0;39m Setting the eureka configuration..
+2020-12-28 18:26:19.609 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-8761"]
+2020-12-28 18:26:19.638 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :148  [32m        [0;39m isAws returned false
+2020-12-28 18:26:19.639 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :114  [32m        [0;39m Initialized server context
+2020-12-28 18:26:19.640 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :244  [32m        [0;39m Got 1 instances from neighboring DS node
+2020-12-28 18:26:19.640 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :245  [32m        [0;39m Renew threshold is: 1
+2020-12-28 18:26:19.640 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :256  [32m        [0;39m Changing status to UP
+2020-12-28 18:26:19.664 INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration  :69   [32m        [0;39m Started Eureka Server
+2020-12-28 18:26:19.670 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 8761 (http) with context path ''
+2020-12-28 18:26:19.671 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 8761
+2020-12-28 18:26:20.766 INFO  com.course.eureka.EurekaApplication               :61   [32m        [0;39m Started EurekaApplication in 14.333 seconds (JVM running for 15.913)
+2020-12-28 18:26:20.782 INFO  com.course.eureka.EurekaApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-28 18:26:20.783 INFO  com.course.eureka.EurekaApplication               :22   [32m        [0;39m Eureka地址: 	http://127.0.0.1:8761
+2020-12-28 18:26:49.891 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-28 18:26:49.891 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2020-12-28 18:26:49.893 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 2 ms
+2020-12-28 18:26:50.253 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=false)
+2020-12-28 18:26:51.020 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=true)
+2020-12-28 18:36:25.648 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-28 18:36:25.676 INFO  com.course.eureka.EurekaApplication               :55   [32m        [0;39m Starting EurekaApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 260 (F:\ijjava\cloudvi\eureka\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-28 18:36:25.685 INFO  com.course.eureka.EurekaApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-28 18:36:28.022 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=e4d13611-5d91-3cb8-a99b-11388ff9f9e9
+2020-12-28 18:36:29.318 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 8761 (http)
+2020-12-28 18:36:29.332 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-8761"]
+2020-12-28 18:36:29.332 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-28 18:36:29.333 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-28 18:36:29.698 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-28 18:36:29.698 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 3896 ms
+2020-12-28 18:36:30.771 INFO  c.s.j.server.impl.application.WebApplicationImpl  :815  [32m        [0;39m Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2020-12-28 18:36:30.867 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 18:36:30.867 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 18:36:31.110 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 18:36:31.110 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 18:36:32.447 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-28 18:36:35.714 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:87   [32m        [0;39m Eureka HTTP Client uses Jersey
+2020-12-28 18:36:35.831 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-28 18:36:35.862 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-28 18:36:35.918 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-28 18:36:35.919 INFO  com.netflix.discovery.DiscoveryClient             :375  [32m        [0;39m Client configured to neither register nor query for data.
+2020-12-28 18:36:35.939 INFO  com.netflix.discovery.DiscoveryClient             :390  [32m        [0;39m Discovery Client initialized at timestamp 1609151795937 with initial instances count: 0
+2020-12-28 18:36:36.008 INFO  com.netflix.eureka.DefaultEurekaServerContext     :66   [32m        [0;39m Initializing ...
+2020-12-28 18:36:36.015 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :187  [32m        [0;39m Adding new peer nodes [http://localhost:8761/eureka/]
+2020-12-28 18:36:37.161 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 18:36:37.161 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 18:36:37.162 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 18:36:37.162 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 18:36:37.375 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :109  [32m        [0;39m Replica node URL:  http://localhost:8761/eureka/
+2020-12-28 18:36:37.392 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:153  [32m        [0;39m Finished initializing remote region registries. All known remote regions: []
+2020-12-28 18:36:37.394 INFO  com.netflix.eureka.DefaultEurekaServerContext     :73   [32m        [0;39m Initialized
+2020-12-28 18:36:37.408 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m        [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-28 18:36:37.448 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application EUREKA with eureka with status UP
+2020-12-28 18:36:37.453 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-8761"]
+2020-12-28 18:36:37.455 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :97   [32m        [0;39m Setting the eureka configuration..
+2020-12-28 18:36:37.493 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :148  [32m        [0;39m isAws returned false
+2020-12-28 18:36:37.494 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :114  [32m        [0;39m Initialized server context
+2020-12-28 18:36:37.495 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :244  [32m        [0;39m Got 1 instances from neighboring DS node
+2020-12-28 18:36:37.495 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :245  [32m        [0;39m Renew threshold is: 1
+2020-12-28 18:36:37.495 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :256  [32m        [0;39m Changing status to UP
+2020-12-28 18:36:37.501 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 8761 (http) with context path ''
+2020-12-28 18:36:37.506 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 8761
+2020-12-28 18:36:37.518 INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration  :69   [32m        [0;39m Started Eureka Server
+2020-12-28 18:36:38.763 INFO  com.course.eureka.EurekaApplication               :61   [32m        [0;39m Started EurekaApplication in 15.513 seconds (JVM running for 16.922)
+2020-12-28 18:36:38.776 INFO  com.course.eureka.EurekaApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-28 18:36:38.777 INFO  com.course.eureka.EurekaApplication               :22   [32m        [0;39m Eureka地址: 	http://127.0.0.1:8761
+2020-12-28 18:38:07.366 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-28 18:38:07.406 INFO  com.course.eureka.EurekaApplication               :55   [32m        [0;39m Starting EurekaApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 7884 (F:\ijjava\cloudvi\eureka\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-28 18:38:07.410 INFO  com.course.eureka.EurekaApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-28 18:38:09.545 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=e4d13611-5d91-3cb8-a99b-11388ff9f9e9
+2020-12-28 18:38:10.597 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 8761 (http)
+2020-12-28 18:38:10.615 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-8761"]
+2020-12-28 18:38:10.617 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-28 18:38:10.617 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-28 18:38:10.903 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-28 18:38:10.903 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 3374 ms
+2020-12-28 18:38:11.948 INFO  c.s.j.server.impl.application.WebApplicationImpl  :815  [32m        [0;39m Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2020-12-28 18:38:12.063 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 18:38:12.063 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 18:38:12.258 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 18:38:12.259 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 18:38:13.819 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-28 18:38:16.315 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:87   [32m        [0;39m Eureka HTTP Client uses Jersey
+2020-12-28 18:38:16.414 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-28 18:38:16.447 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-28 18:38:16.498 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-28 18:38:16.499 INFO  com.netflix.discovery.DiscoveryClient             :375  [32m        [0;39m Client configured to neither register nor query for data.
+2020-12-28 18:38:16.511 INFO  com.netflix.discovery.DiscoveryClient             :390  [32m        [0;39m Discovery Client initialized at timestamp 1609151896510 with initial instances count: 0
+2020-12-28 18:38:16.622 INFO  com.netflix.eureka.DefaultEurekaServerContext     :66   [32m        [0;39m Initializing ...
+2020-12-28 18:38:16.636 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :187  [32m        [0;39m Adding new peer nodes [http://localhost:8761/eureka/]
+2020-12-28 18:38:17.729 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 18:38:17.730 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 18:38:17.731 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 18:38:17.731 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 18:38:17.958 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :109  [32m        [0;39m Replica node URL:  http://localhost:8761/eureka/
+2020-12-28 18:38:17.973 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:153  [32m        [0;39m Finished initializing remote region registries. All known remote regions: []
+2020-12-28 18:38:17.975 INFO  com.netflix.eureka.DefaultEurekaServerContext     :73   [32m        [0;39m Initialized
+2020-12-28 18:38:17.994 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m        [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-28 18:38:18.070 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application EUREKA with eureka with status UP
+2020-12-28 18:38:18.075 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :97   [32m        [0;39m Setting the eureka configuration..
+2020-12-28 18:38:18.075 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-8761"]
+2020-12-28 18:38:18.106 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :148  [32m        [0;39m isAws returned false
+2020-12-28 18:38:18.108 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :114  [32m        [0;39m Initialized server context
+2020-12-28 18:38:18.108 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :244  [32m        [0;39m Got 1 instances from neighboring DS node
+2020-12-28 18:38:18.108 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :245  [32m        [0;39m Renew threshold is: 1
+2020-12-28 18:38:18.109 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :256  [32m        [0;39m Changing status to UP
+2020-12-28 18:38:18.133 INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration  :69   [32m        [0;39m Started Eureka Server
+2020-12-28 18:38:18.138 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 8761 (http) with context path ''
+2020-12-28 18:38:18.140 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 8761
+2020-12-28 18:38:19.187 INFO  com.course.eureka.EurekaApplication               :61   [32m        [0;39m Started EurekaApplication in 13.945 seconds (JVM running for 15.711)
+2020-12-28 18:38:19.205 INFO  com.course.eureka.EurekaApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-28 18:38:19.206 INFO  com.course.eureka.EurekaApplication               :22   [32m        [0;39m Eureka地址: 	http://127.0.0.1:8761
+2020-12-28 18:38:34.968 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-28 18:38:34.969 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2020-12-28 18:38:34.970 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2020-12-28 18:38:35.851 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=false)
+2020-12-28 18:38:36.658 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=true)
+2020-12-28 18:39:18.112 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:40:18.111 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:41:18.112 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:42:18.113 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 18:42:27.173 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=false)
+2020-12-28 18:42:27.684 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=true)
+2020-12-28 18:43:18.114 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:46:19.477 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-28 18:46:19.515 INFO  com.course.eureka.EurekaApplication               :55   [32m        [0;39m Starting EurekaApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 5452 (F:\ijjava\cloudvi\eureka\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-28 18:46:19.518 INFO  com.course.eureka.EurekaApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-28 18:46:21.952 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=e4d13611-5d91-3cb8-a99b-11388ff9f9e9
+2020-12-28 18:46:22.866 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 8761 (http)
+2020-12-28 18:46:22.881 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-8761"]
+2020-12-28 18:46:22.882 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-28 18:46:22.882 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-28 18:46:23.239 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-28 18:46:23.239 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 3579 ms
+2020-12-28 18:46:24.146 INFO  c.s.j.server.impl.application.WebApplicationImpl  :815  [32m        [0;39m Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2020-12-28 18:46:24.244 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 18:46:24.244 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 18:46:24.444 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 18:46:24.444 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 18:46:25.502 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-28 18:46:28.245 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:87   [32m        [0;39m Eureka HTTP Client uses Jersey
+2020-12-28 18:46:28.402 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-28 18:46:28.443 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-28 18:46:28.505 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-28 18:46:28.505 INFO  com.netflix.discovery.DiscoveryClient             :375  [32m        [0;39m Client configured to neither register nor query for data.
+2020-12-28 18:46:28.523 INFO  com.netflix.discovery.DiscoveryClient             :390  [32m        [0;39m Discovery Client initialized at timestamp 1609152388521 with initial instances count: 0
+2020-12-28 18:46:28.592 INFO  com.netflix.eureka.DefaultEurekaServerContext     :66   [32m        [0;39m Initializing ...
+2020-12-28 18:46:28.595 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :187  [32m        [0;39m Adding new peer nodes [http://localhost:8761/eureka/]
+2020-12-28 18:46:29.734 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 18:46:29.735 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 18:46:29.735 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 18:46:29.735 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 18:46:29.953 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :109  [32m        [0;39m Replica node URL:  http://localhost:8761/eureka/
+2020-12-28 18:46:29.972 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:153  [32m        [0;39m Finished initializing remote region registries. All known remote regions: []
+2020-12-28 18:46:29.974 INFO  com.netflix.eureka.DefaultEurekaServerContext     :73   [32m        [0;39m Initialized
+2020-12-28 18:46:29.989 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m        [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-28 18:46:30.053 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application EUREKA with eureka with status UP
+2020-12-28 18:46:30.058 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-8761"]
+2020-12-28 18:46:30.058 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :97   [32m        [0;39m Setting the eureka configuration..
+2020-12-28 18:46:30.091 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :148  [32m        [0;39m isAws returned false
+2020-12-28 18:46:30.092 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :114  [32m        [0;39m Initialized server context
+2020-12-28 18:46:30.093 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :244  [32m        [0;39m Got 1 instances from neighboring DS node
+2020-12-28 18:46:30.093 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :245  [32m        [0;39m Renew threshold is: 1
+2020-12-28 18:46:30.093 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :256  [32m        [0;39m Changing status to UP
+2020-12-28 18:46:30.113 INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration  :69   [32m        [0;39m Started Eureka Server
+2020-12-28 18:46:30.118 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 8761 (http) with context path ''
+2020-12-28 18:46:30.119 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 8761
+2020-12-28 18:46:31.143 INFO  com.course.eureka.EurekaApplication               :61   [32m        [0;39m Started EurekaApplication in 13.69 seconds (JVM running for 15.016)
+2020-12-28 18:46:31.155 INFO  com.course.eureka.EurekaApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-28 18:46:31.156 INFO  com.course.eureka.EurekaApplication               :22   [32m        [0;39m Eureka地址: 	http://127.0.0.1:8761
+2020-12-28 18:46:41.121 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-28 18:46:41.122 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2020-12-28 18:46:41.124 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2020-12-28 18:47:07.175 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=false)
+2020-12-28 18:47:07.815 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=true)
+2020-12-28 18:47:30.099 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:48:30.100 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:49:30.100 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:50:30.100 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:51:30.101 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:52:30.101 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:53:30.101 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:54:30.101 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:55:30.101 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:56:30.102 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:57:30.102 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 18:58:30.103 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 19:11:11.404 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-28 19:11:11.455 INFO  com.course.eureka.EurekaApplication               :55   [32m        [0;39m Starting EurekaApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 14528 (F:\ijjava\cloudvi\eureka\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-28 19:11:11.457 INFO  com.course.eureka.EurekaApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-28 19:11:14.566 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=e4d13611-5d91-3cb8-a99b-11388ff9f9e9
+2020-12-28 19:11:15.710 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 8761 (http)
+2020-12-28 19:11:15.724 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-8761"]
+2020-12-28 19:11:15.725 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-28 19:11:15.725 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-28 19:11:16.071 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-28 19:11:16.072 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 4369 ms
+2020-12-28 19:11:17.091 INFO  c.s.j.server.impl.application.WebApplicationImpl  :815  [32m        [0;39m Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2020-12-28 19:11:17.214 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 19:11:17.215 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 19:11:17.436 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 19:11:17.436 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 19:11:19.183 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-28 19:11:23.743 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:87   [32m        [0;39m Eureka HTTP Client uses Jersey
+2020-12-28 19:11:23.932 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-28 19:11:24.020 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-28 19:11:24.122 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-28 19:11:24.123 INFO  com.netflix.discovery.DiscoveryClient             :375  [32m        [0;39m Client configured to neither register nor query for data.
+2020-12-28 19:11:24.141 INFO  com.netflix.discovery.DiscoveryClient             :390  [32m        [0;39m Discovery Client initialized at timestamp 1609153884139 with initial instances count: 0
+2020-12-28 19:11:24.217 INFO  com.netflix.eureka.DefaultEurekaServerContext     :66   [32m        [0;39m Initializing ...
+2020-12-28 19:11:24.221 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :187  [32m        [0;39m Adding new peer nodes [http://localhost:8761/eureka/]
+2020-12-28 19:11:25.300 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 19:11:25.300 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 19:11:25.301 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 19:11:25.301 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 19:11:25.500 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :109  [32m        [0;39m Replica node URL:  http://localhost:8761/eureka/
+2020-12-28 19:11:25.517 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:153  [32m        [0;39m Finished initializing remote region registries. All known remote regions: []
+2020-12-28 19:11:25.519 INFO  com.netflix.eureka.DefaultEurekaServerContext     :73   [32m        [0;39m Initialized
+2020-12-28 19:11:25.537 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m        [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-28 19:11:25.594 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application EUREKA with eureka with status UP
+2020-12-28 19:11:25.598 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-8761"]
+2020-12-28 19:11:25.607 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :97   [32m        [0;39m Setting the eureka configuration..
+2020-12-28 19:11:25.634 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :148  [32m        [0;39m isAws returned false
+2020-12-28 19:11:25.635 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :114  [32m        [0;39m Initialized server context
+2020-12-28 19:11:25.635 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :244  [32m        [0;39m Got 1 instances from neighboring DS node
+2020-12-28 19:11:25.635 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :245  [32m        [0;39m Renew threshold is: 1
+2020-12-28 19:11:25.636 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :256  [32m        [0;39m Changing status to UP
+2020-12-28 19:11:25.652 INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration  :69   [32m        [0;39m Started Eureka Server
+2020-12-28 19:11:25.669 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 8761 (http) with context path ''
+2020-12-28 19:11:25.670 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 8761
+2020-12-28 19:11:27.226 INFO  com.course.eureka.EurekaApplication               :61   [32m        [0;39m Started EurekaApplication in 18.259 seconds (JVM running for 19.702)
+2020-12-28 19:11:27.240 INFO  com.course.eureka.EurekaApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-28 19:11:27.240 INFO  com.course.eureka.EurekaApplication               :22   [32m        [0;39m Eureka地址: 	http://127.0.0.1:8761
+2020-12-28 19:12:25.643 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:13:25.666 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 23ms
+2020-12-28 19:13:36.881 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-28 19:13:36.882 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2020-12-28 19:13:36.883 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2020-12-28 19:13:37.267 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=false)
+2020-12-28 19:13:38.058 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=true)
+2020-12-28 19:14:25.666 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:15:25.667 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:16:25.667 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:17:25.667 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:18:25.667 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:32:47.870 INFO  org.hibernate.validator.internal.util.Version     :21   [32m        [0;39m HV000001: Hibernate Validator 6.1.6.Final
+2020-12-28 19:32:47.875 INFO  com.course.eureka.EurekaApplication               :55   [32m        [0;39m Starting EurekaApplication using Java 1.8.0_152 on DESKTOP-1UOLNSE with PID 2312 (F:\ijjava\cloudvi\eureka\target\classes started by RyanHo in F:\ijjava\cloudvi)
+2020-12-28 19:32:47.875 INFO  com.course.eureka.EurekaApplication               :660  [32m        [0;39m No active profile set, falling back to default profiles: default
+2020-12-28 19:32:49.034 INFO  o.springframework.cloud.context.scope.GenericScope:288  [32m        [0;39m BeanFactory id=438cfb77-08e5-3362-8ccc-eb294fad23e3
+2020-12-28 19:32:49.335 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 8761 (http)
+2020-12-28 19:32:49.345 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-8761"]
+2020-12-28 19:32:49.345 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2020-12-28 19:32:49.346 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.41]
+2020-12-28 19:32:49.535 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2020-12-28 19:32:49.536 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :289  [32m        [0;39m Root WebApplicationContext: initialization completed in 1602 ms
+2020-12-28 19:32:50.131 INFO  c.s.j.server.impl.application.WebApplicationImpl  :815  [32m        [0;39m Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2020-12-28 19:32:50.194 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 19:32:50.195 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 19:32:50.301 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 19:32:50.302 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 19:32:50.784 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor  :181  [32m        [0;39m Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-28 19:32:52.697 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:87   [32m        [0;39m Eureka HTTP Client uses Jersey
+2020-12-28 19:32:52.765 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:79   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it to the classpath.
+2020-12-28 19:32:52.785 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2020-12-28 19:32:52.815 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2020-12-28 19:32:52.816 INFO  com.netflix.discovery.DiscoveryClient             :375  [32m        [0;39m Client configured to neither register nor query for data.
+2020-12-28 19:32:52.822 INFO  com.netflix.discovery.DiscoveryClient             :390  [32m        [0;39m Discovery Client initialized at timestamp 1609155172820 with initial instances count: 0
+2020-12-28 19:32:52.856 INFO  com.netflix.eureka.DefaultEurekaServerContext     :66   [32m        [0;39m Initializing ...
+2020-12-28 19:32:52.859 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :187  [32m        [0;39m Adding new peer nodes [http://localhost:8761/eureka/]
+2020-12-28 19:32:53.495 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2020-12-28 19:32:53.495 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2020-12-28 19:32:53.496 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2020-12-28 19:32:53.496 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2020-12-28 19:32:53.611 INFO  com.netflix.eureka.cluster.PeerEurekaNodes        :109  [32m        [0;39m Replica node URL:  http://localhost:8761/eureka/
+2020-12-28 19:32:53.621 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:153  [32m        [0;39m Finished initializing remote region registries. All known remote regions: []
+2020-12-28 19:32:53.623 INFO  com.netflix.eureka.DefaultEurekaServerContext     :73   [32m        [0;39m Initialized
+2020-12-28 19:32:53.636 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m        [0;39m Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-12-28 19:32:53.673 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application EUREKA with eureka with status UP
+2020-12-28 19:32:53.678 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :97   [32m        [0;39m Setting the eureka configuration..
+2020-12-28 19:32:53.678 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-8761"]
+2020-12-28 19:32:53.698 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :148  [32m        [0;39m isAws returned false
+2020-12-28 19:32:53.698 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :114  [32m        [0;39m Initialized server context
+2020-12-28 19:32:53.699 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :244  [32m        [0;39m Got 1 instances from neighboring DS node
+2020-12-28 19:32:53.699 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :245  [32m        [0;39m Renew threshold is: 1
+2020-12-28 19:32:53.699 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :256  [32m        [0;39m Changing status to UP
+2020-12-28 19:32:53.717 INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration  :69   [32m        [0;39m Started Eureka Server
+2020-12-28 19:32:53.726 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 8761 (http) with context path ''
+2020-12-28 19:32:53.727 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 8761
+2020-12-28 19:32:54.668 INFO  com.course.eureka.EurekaApplication               :61   [32m        [0;39m Started EurekaApplication in 8.628 seconds (JVM running for 10.439)
+2020-12-28 19:32:54.679 INFO  com.course.eureka.EurekaApplication               :21   [32m        [0;39m 启动成功！！
+2020-12-28 19:32:54.680 INFO  com.course.eureka.EurekaApplication               :22   [32m        [0;39m Eureka地址: 	http://127.0.0.1:8761
+2020-12-28 19:33:32.173 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-28 19:33:32.173 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2020-12-28 19:33:32.175 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2020-12-28 19:33:32.403 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance GATEWAY/DESKTOP-1UOLNSE:gateway:9000 with status UP (replication=false)
+2020-12-28 19:33:33.057 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance GATEWAY/DESKTOP-1UOLNSE:gateway:9000 with status UP (replication=true)
+2020-12-28 19:33:53.700 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:34:53.701 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:35:53.701 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:36:53.702 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:37:53.702 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:38:53.703 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:39:53.704 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 19:40:53.704 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:41:44.561 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=false)
+2020-12-28 19:41:45.071 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=true)
+2020-12-28 19:41:53.704 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:42:53.705 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:43:53.705 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:44:53.707 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 19:45:53.707 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:46:53.708 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:46:56.934 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=false)
+2020-12-28 19:46:57.443 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/DESKTOP-1UOLNSE:system:9001 with status UP (replication=true)
+2020-12-28 19:47:51.072 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance GATEWAY/DESKTOP-1UOLNSE:gateway:9000 with status UP (replication=false)
+2020-12-28 19:47:51.587 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance GATEWAY/DESKTOP-1UOLNSE:gateway:9000 with status UP (replication=true)
+2020-12-28 19:47:53.621 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :552  [32m        [0;39m Current renewal threshold is : 5
+2020-12-28 19:47:53.708 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:48:53.708 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:49:53.709 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:50:53.709 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:51:53.710 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 19:52:53.711 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:53:53.711 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:54:53.711 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:55:53.712 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:56:53.712 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:57:53.712 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 19:58:53.713 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 19:59:53.713 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:00:53.714 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:01:53.715 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 20:02:53.622 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :552  [32m        [0;39m Current renewal threshold is : 5
+2020-12-28 20:02:53.715 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:03:53.715 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:04:53.715 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:05:53.716 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:06:53.716 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:07:53.716 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:08:53.717 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:09:53.718 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:10:53.718 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:11:53.719 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:12:53.720 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:13:53.720 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:14:53.720 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:15:53.720 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:16:53.720 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:17:53.622 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :552  [32m        [0;39m Current renewal threshold is : 5
+2020-12-28 20:17:53.720 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:18:53.721 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:19:53.721 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:20:53.722 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:21:53.722 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:22:53.722 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:23:53.723 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:24:53.724 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:25:53.725 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 20:26:53.726 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:27:53.727 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:28:53.728 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:29:53.729 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 20:30:53.729 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:31:53.730 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 20:32:53.622 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :552  [32m        [0;39m Current renewal threshold is : 5
+2020-12-28 20:32:53.730 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:33:53.730 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:34:53.731 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:35:53.731 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:36:53.732 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:37:53.733 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:38:53.748 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 15ms
+2020-12-28 20:39:53.748 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:40:53.749 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 20:41:53.749 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:42:53.750 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:43:53.750 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:44:53.750 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:45:53.751 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:46:53.751 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:47:53.622 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :552  [32m        [0;39m Current renewal threshold is : 5
+2020-12-28 20:47:53.752 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:48:53.752 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:49:53.753 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:50:53.753 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:51:53.754 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:52:53.755 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:53:53.755 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:54:53.755 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:55:53.756 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:56:53.757 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 20:57:53.758 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 1ms
+2020-12-28 20:58:53.759 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 20:59:53.759 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 21:00:53.759 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 21:01:53.760 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 21:02:53.623 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :552  [32m        [0;39m Current renewal threshold is : 5
+2020-12-28 21:02:53.760 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 21:03:53.761 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2020-12-28 21:04:53.761 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
