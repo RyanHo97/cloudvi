@@ -947,7 +947,7 @@
           <div class="footer-content">
 						<span class="bigger-120">
 							<span class="blue bolder">Ace</span>
-							Application &copy; 2013-2014
+							Application &copy; 2020-2021
 						</span>
 
             &nbsp; &nbsp;
@@ -976,7 +976,17 @@
 </template>
 
 <script>
-
-  $('body').removeClass( 'login-layout light-login');
-  $('body').attr('class', 'no-skin');
+  export default {
+    name: "admin",
+    mounted:function () {
+      $("body").removeClass( "login-layout light-login");
+      $("body").attr("class", "no-skin");
+      console.log("admin");
+    },
+    methods:{
+      login(){
+        this.$router.push("/admin")
+      }
+    }
+  }
 </script>
