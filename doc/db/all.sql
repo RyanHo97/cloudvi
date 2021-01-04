@@ -1,18 +1,3 @@
-/*
-Navicat MySQL Data Transfer
-
-Source Server         : courseimooc@localhost
-Source Server Version : 80021
-Source Host           : localhost:3306
-Source Database       : courseimooc
-
-Target Server Type    : MYSQL
-Target Server Version : 80021
-File Encoding         : 65001
-
-Date: 2020-12-30 21:12:18
-*/
-
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
@@ -30,3 +15,12 @@ CREATE TABLE `test` (
 -- ----------------------------
 INSERT INTO `test` VALUES ('1', 'rrrr');
 INSERT INTO `test` VALUES ('2', 'tttt');
+
+--  大章
+drop table if exists `chapter`;
+create table `chapter` (
+  `id` char(8) not null comment 'id',
+  `course_id` char(8) comment '课程id',
+  `name` varchar(50) comment '名称',
+  primary key (`id`)
+) engine=innodb default charset=utf8mb4 comment='大章';
