@@ -354,21 +354,18 @@
         </div><!-- /.sidebar-shortcuts -->
 
         <ul class="nav nav-list">
-          <li class="">
-            <a href="index.html">
+          <li class="active" id="welcome-sidebar">
+            <router-link to="/admin/welcome">
               <i class="menu-icon fa fa-tachometer"></i>
               <span class="menu-text"> 欢迎 </span>
-            </a>
-
             <b class="arrow"></b>
+            </router-link>
           </li>
 
           <li class="">
             <a href="#" class="dropdown-toggle">
-              <i class="menu-icon fa fa-desktop"></i>
-              <span class="menu-text">
-								UI风格
-							</span>
+              <i class="menu-icon fa fa-list"></i>
+              <span class="menu-text"> 业务管理</span>
 
               <b class="arrow fa fa-angle-down"></b>
             </a>
@@ -376,188 +373,14 @@
             <b class="arrow"></b>
 
             <ul class="submenu">
-              <li class="">
-                <a href="#" class="dropdown-toggle">
+              <li class="active" id="business-chapter-sidebar">
+                <router-link to="/admin/business/chapter">
                   <i class="menu-icon fa fa-caret-right"></i>
-
-                  Layouts
-                  <b class="arrow fa fa-angle-down"></b>
-                </a>
-
+                  大章管理
                 <b class="arrow"></b>
-
-                <ul class="submenu">
-                  <li class="">
-                    <a href="top-menu.html">
-                      <i class="menu-icon fa fa-caret-right"></i>
-                      Top Menu
-                    </a>
-
-                    <b class="arrow"></b>
-                  </li>
-
-                  <li class="">
-                    <a href="two-menu-1.html">
-                      <i class="menu-icon fa fa-caret-right"></i>
-                      Two Menus 1
-                    </a>
-
-                    <b class="arrow"></b>
-                  </li>
-
-                  <li class="">
-                    <a href="two-menu-2.html">
-                      <i class="menu-icon fa fa-caret-right"></i>
-                      Two Menus 2
-                    </a>
-
-                    <b class="arrow"></b>
-                  </li>
-
-                  <li class="">
-                    <a href="mobile-menu-1.html">
-                      <i class="menu-icon fa fa-caret-right"></i>
-                      Default Mobile Menu
-                    </a>
-
-                    <b class="arrow"></b>
-                  </li>
-
-                  <li class="">
-                    <a href="mobile-menu-2.html">
-                      <i class="menu-icon fa fa-caret-right"></i>
-                      Mobile Menu 2
-                    </a>
-
-                    <b class="arrow"></b>
-                  </li>
-
-                  <li class="">
-                    <a href="mobile-menu-3.html">
-                      <i class="menu-icon fa fa-caret-right"></i>
-                      Mobile Menu 3
-                    </a>
-
-                    <b class="arrow"></b>
-                  </li>
-                </ul>
+                </router-link>
               </li>
 
-              <li class="">
-                <a href="typography.html">
-                  <i class="menu-icon fa fa-caret-right"></i>
-                  Typography
-                </a>
-
-                <b class="arrow"></b>
-              </li>
-
-              <li class="">
-                <a href="elements.html">
-                  <i class="menu-icon fa fa-caret-right"></i>
-                  Elements
-                </a>
-
-                <b class="arrow"></b>
-              </li>
-
-              <li class="">
-                <a href="buttons.html">
-                  <i class="menu-icon fa fa-caret-right"></i>
-                  Buttons &amp; Icons
-                </a>
-
-                <b class="arrow"></b>
-              </li>
-
-              <li class="">
-                <a href="content-slider.html">
-                  <i class="menu-icon fa fa-caret-right"></i>
-                  Content Sliders
-                </a>
-
-                <b class="arrow"></b>
-              </li>
-
-              <li class="">
-                <a href="treeview.html">
-                  <i class="menu-icon fa fa-caret-right"></i>
-                  Treeview
-                </a>
-
-                <b class="arrow"></b>
-              </li>
-
-              <li class="">
-                <a href="jquery-ui.html">
-                  <i class="menu-icon fa fa-caret-right"></i>
-                  jQuery UI
-                </a>
-
-                <b class="arrow"></b>
-              </li>
-
-              <li class="">
-                <a href="nestable-list.html">
-                  <i class="menu-icon fa fa-caret-right"></i>
-                  Nestable Lists
-                </a>
-
-                <b class="arrow"></b>
-              </li>
-
-              <li class="">
-                <a href="#" class="dropdown-toggle">
-                  <i class="menu-icon fa fa-caret-right"></i>
-
-                  Three Level Menu
-                  <b class="arrow fa fa-angle-down"></b>
-                </a>
-
-                <b class="arrow"></b>
-
-                <ul class="submenu">
-                  <li class="">
-                    <a href="#">
-                      <i class="menu-icon fa fa-leaf green"></i>
-                      Item #1
-                    </a>
-
-                    <b class="arrow"></b>
-                  </li>
-
-                  <li class="">
-                    <a href="#" class="dropdown-toggle">
-                      <i class="menu-icon fa fa-pencil orange"></i>
-
-                      4th level
-                      <b class="arrow fa fa-angle-down"></b>
-                    </a>
-
-                    <b class="arrow"></b>
-
-                    <ul class="submenu">
-                      <li class="">
-                        <a href="#">
-                          <i class="menu-icon fa fa-plus purple"></i>
-                          Add Product
-                        </a>
-
-                        <b class="arrow"></b>
-                      </li>
-
-                      <li class="">
-                        <a href="#">
-                          <i class="menu-icon fa fa-eye pink"></i>
-                          View Products
-                        </a>
-
-                        <b class="arrow"></b>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
             </ul>
           </li>
 
@@ -617,7 +440,7 @@
                 <b class="arrow"></b>
               </li>
 
-              <li class="active">
+              <li class="">
                 <a href="blank.html">
                   <i class="menu-icon fa fa-caret-right"></i>
                   招贤纳士
@@ -690,9 +513,27 @@
       $("body").attr("class", "no-skin");
       console.log("admin");
     },
-    methods:{
-      login(){
+    methods: {
+      login() {
         this.$router.push("/admin")
+      },
+      /**
+       * 菜单激活样式，id是当前点击的菜单的id
+       * @param id
+       */
+      activeSidebar: function (id) {
+        // 兄弟菜单去掉active样式，自身增加active样式
+        $("#" + id).siblings().removeClass("active");
+        $("#" + id).siblings().find("li").removeClass("active");
+        $("#" + id).addClass("active");
+
+        // 如果有父菜单，父菜单的兄弟菜单去掉open active，父菜单增加open active
+        let parentLi = $("#" + id).parents("li");
+        if (parentLi) {
+          parentLi.siblings().removeClass("open active");
+          parentLi.siblings().find("li").removeClass("active");
+          parentLi.addClass("open active");
+        }
       }
     }
   }
