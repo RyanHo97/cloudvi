@@ -24,3 +24,6 @@ create table `chapter` (
   `name` varchar(50) comment '名称',
   primary key (`id`)
 ) engine=innodb default charset=utf8mb4 comment='大章';
+
+insert into `chapter` (id, course_id, name) values ('00000001', '00000000', '测试大章01');
+insert into `chapter` (id, course_id, name) values ('00000002', '00000000', '测试大章02');
