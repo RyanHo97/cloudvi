@@ -509,9 +509,30 @@
   export default {
     name: "admin",
     mounted:function () {
+      let _this = this;
       $("body").removeClass( "login-layout light-login");
       $("body").attr("class", "no-skin");
-      console.log("admin");
+      //console.log("admin");
+      //sidebar激活样式方法二
+      _this.activeSidebar(_this.$route.name.replace("/", "-") + "-sidebar");
+    },
+    watch: {
+      $route: {
+        handler:function(val, oldVal){
+          // sidebar激活样式方法二
+          console.log("---->页面跳转：", val, oldVal);
+          let _this = this;
+
+          if (!_this.hasResourceRouter(val.name)) {
+            _this.$router.push("/login");
+            return;
+          }
+
+          _this.$nextTick(function(){  //页面加载完成后执行
+            _this.activeSidebar(_this.$route.name.replace("/", "-") + "-sidebar");
+          })
+        }
+      }
     },
     methods: {
       login() {
