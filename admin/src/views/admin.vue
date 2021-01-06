@@ -355,7 +355,7 @@
 
         <ul class="nav nav-list">
           <li class="active" id="welcome-sidebar">
-            <router-link to="/admin/welcome">
+            <router-link to="/welcome">
               <i class="menu-icon fa fa-tachometer"></i>
               <span class="menu-text"> 欢迎 </span>
             <b class="arrow"></b>
@@ -374,7 +374,7 @@
 
             <ul class="submenu">
               <li class="active" id="business-chapter-sidebar">
-                <router-link to="/admin/business/chapter">
+                <router-link to="/business/chapter">
                   <i class="menu-icon fa fa-caret-right"></i>
                   大章管理
                 <b class="arrow"></b>
