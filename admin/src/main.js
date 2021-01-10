@@ -9,4 +9,4 @@ Vue.prototype.$ajax=axios;
 new Vue({
     router,
     render:h => h(app),
-}).$mount('#app');
+}).$mount('#app');//有一些区别，没有elementOrSelector：
