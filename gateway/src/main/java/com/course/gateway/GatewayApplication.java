@@ -36,7 +36,7 @@ public class GatewayApplication {
 
 		config.setAllowCredentials(Boolean.TRUE);
 		config.addAllowedMethod("*");
-		config.addAllowedOriginPattern("*"); //addAllowedOrigin -> addAllowedOriginPattern because allowCredentials为true时，allowedOrigins不能包含特殊值“*”，因为不能在“Access Control Allow Origin”响应头上设置该值
+		config.addAllowedOrigin("*"); //addAllowedOrigin -> addAllowedOriginPattern because allowCredentials为true时，allowedOrigins不能包含特殊值“*”，因为不能在“Access Control Allow Origin”响应头上设置该值
 		config.addAllowedHeader("*");
 		config.setMaxAge(3600L);
 
